@@ -1,6 +1,7 @@
 import java.util.Properties
 import java.io.FileInputStream
 
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -28,7 +29,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        buildConfigField ("String", "ACCESS_TOKEN", "\"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\"")
+        buildConfigField ("String", "ACCESS_TOKEN", "\"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\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
