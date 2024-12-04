@@ -17,7 +17,6 @@ if (apikeyPropertiesFile.exists()) {
     throw GradleException("File apikey.properties tidak ditemukan di root project.")
 }
 
-
 android {
     namespace = "id.ac.polbeng.tamarablezinky.githubprofile"
     compileSdk = 35
