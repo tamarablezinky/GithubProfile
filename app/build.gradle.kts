@@ -63,7 +63,6 @@ android {
         testImplementation(libs.junit)
         androidTestImplementation(libs.androidx.junit)
         androidTestImplementation(libs.androidx.espresso.core)
-
         //library untuk menampilkan gambar bergerak splashscreen
         implementation ("com.airbnb.android:lottie:5.2.0")
         //library untuk amenability gambar bulat (circle)
